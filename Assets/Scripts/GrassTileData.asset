@@ -15,5 +15,5 @@ MonoBehaviour:
   tiles:
   - {fileID: 11400000, guid: 5c3a7b9569e1e3a4c8fe71f8ade70517, type: 2}
   duration: 10
-  hp: 3
+  hp: 5
   tileStatus: 0
