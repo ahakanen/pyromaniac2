@@ -27,6 +27,8 @@ public class MapManager : MonoBehaviour
 
 	private void Update()
 	{
+		// FOR DEBUGGING
+		/*
 		if (Input.GetMouseButtonDown(0))
 		{
 			Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -60,6 +62,7 @@ public class MapManager : MonoBehaviour
 			Debug.Log("Current duration at tile: " + GameManager.Instance.burnManager.GetBurnTimer(gridPosition));
 			Debug.Log("Current status at tile: " + GameManager.Instance.burnManager.GetTileStatus(gridPosition));
 		}
+		*/
 		// timer to deal with burn timers
 		timer--;
 		if (timer < 0)
